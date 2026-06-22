@@ -1,9 +1,9 @@
 from shkeeper.modules.classes.xdc import XDC
 
 
-class xdceth(XDC):
+class xdc(XDC):
     def __init__(self):
-        self.crypto = "XDCETH"
+        self.crypto = "XDC"
 
     def getname(self):
-        return "XDC ETH"
+        return "XDC"
