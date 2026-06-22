@@ -11,7 +11,7 @@ from shkeeper.modules.classes.ethereum import Ethereum
 
 class XDC(Ethereum):
     can_set_tx_fee = False
-    network_currency = "XDCETH"
+    network_currency = "XDC"
 
     def gethost(self):
         host = environ.get("XDC_API_SERVER_HOST", "xdc-shkeeper")
