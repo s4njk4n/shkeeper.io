@@ -1,4 +1,4 @@
-from shkeeper.modules.classes.arbitrum import XDC
+from shkeeper.modules.classes.xdc import XDC
 
 
 class xdceth(XDC):
